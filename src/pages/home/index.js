@@ -18,10 +18,10 @@ export default function Home() {
           <img src={logoWhiteImg} className="logoBlock"></img>
         </div>
         <div className="mainTitle">
-          Be a DeFi Chef with IC Contracts.
+          Relationship management tools
         </div>
         <div className="mainDes">
-          Swap, earn, stack yields, lend, borrow, leverage all on one decentralized, community driven platform. Welcome home to DeFi.
+          Ic-contacts will connect users' identities in the three fields of distributed cloud, blockchain and distributed storage, and use this as the starting point for the construction of social network.
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@ export default function Home() {
     return <div className="full-page" style={{height: size.height}}>
       <div className="SectionB description">
         <div className="text">
-          Michelin star-worthy DeFi innovations crafted by our master chefs
+          Smart contracts ensure that the sovereignty of personal identity and social relations belongs to the individual
         </div>
       </div>
     </div>
