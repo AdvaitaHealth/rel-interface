@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import motokoImg from '../../static/img/motoko.svg'
 import EthereumImg from '../../static/img/Ethereum_icon.png'
 import ReversiImg from '../../static/img/Reversi.png'
+import MagniImg from '../../static/img/Magni.png'
 
 
 export default function Download() {
@@ -15,6 +16,8 @@ export default function Download() {
     console.log(value)
     if (value == 'Reversi') {
       window.open('https://ivg37-qiaaa-aaaab-aaaga-cai.ic0.app/#!/play');
+    } else if ('Rise Of The') {
+      window.open('https://riseofthemagni.com/');
     } else if (value == 'Ethereum') {
       window.open('https://github.com/relationlabs/rel-contract');
     } else if (value == 'Motoko') {
@@ -32,6 +35,10 @@ export default function Download() {
             <div className="item" onClick={downloadFile.bind(this,'Reversi')}>
               <img src={ReversiImg}></img>
               <span>Reversi</span>
+            </div>
+            <div className="item" onClick={downloadFile.bind(this,'Rise Of The')}>
+              <img src={MagniImg}></img>
+              <span>Rise Of The</span>
             </div>
           </div>
         </div>
