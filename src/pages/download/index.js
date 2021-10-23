@@ -16,7 +16,7 @@ export default function Download() {
     console.log(value)
     if (value == 'Reversi') {
       window.open('https://ivg37-qiaaa-aaaab-aaaga-cai.ic0.app/#!/play');
-    } else if ('Rise Of The') {
+    } else if (value == 'Rise') {
       window.open('https://riseofthemagni.com/');
     } else if (value == 'Ethereum') {
       window.open('https://github.com/relationlabs/rel-contract');
@@ -36,7 +36,7 @@ export default function Download() {
               <img src={ReversiImg}></img>
               <span>Reversi</span>
             </div>
-            <div className="item" onClick={downloadFile.bind(this,'Rise Of The')}>
+            <div className="item" onClick={downloadFile.bind(this,'Rise')}>
               <img src={MagniImg}></img>
               <span>Rise Of The</span>
             </div>
