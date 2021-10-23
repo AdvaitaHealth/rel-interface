@@ -23,7 +23,7 @@ export default function Download() {
     } else if (value == 'Motoko') {
       window.open('https://github.com/relationlabs/rel-contract-motoko');
     } else if (value == 'Edge' || value == 'Chrome' || value == 'Firefox' ) {
-      window.open('https://github.com/relationlabs/rel-plugin/blob/main/ic-contracts-browser-0.1.0.zip?raw=true');
+      window.open('https://github.com/relationlabs/rel-plugin/blob/dfinity.demo/ic-contracts-browser-0.1.0.zip?raw=true');
     }
   }
   return (
